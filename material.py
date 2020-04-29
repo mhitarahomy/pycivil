@@ -120,6 +120,128 @@ class ConcreteMaterial(StructuralMaterial):
         ConcreteMaterial.fc: float = 400
         return cls
 
-c30 = ConcreteMaterial.C30();
-print(c30.E)
-print(c30.fc)
+class SteelMaterial(StructuralMaterial):
+    def __init__(self, name: str, fy: float, fu: float, fye: float,
+            fue: float):
+        self.Fy: float = fy
+        self.Fu: float = fu
+        self.Fye: float = fye
+        self.Fue: float = fue
+        super.__init__(self, name, MaterialType.Steel, 7849.05,
+                20390000000, 0.3, 0.0000117)
+
+    @classmethod
+    def ST37_Rolled(cls):
+        SteelMaterial.name: str = "ST37Rolled"
+        SteelMaterial.Type: MaterialType = MaterialType.Steel
+        SteelMaterial.density: float = 7849.05
+        SteelMaterial.E: float = 2000000
+        SteelMaterial.nu: float = 0.3
+        SteelMaterial.A: float = 0.0000117
+        SteelMaterial.Fy: float = 2400
+        SteelMaterial.Fu: float = 3700
+        SteelMaterial.Fye: float = 2400 * 1.2
+        SteelMaterial.Fue: float = 3700 * 1.2
+        return cls
+
+    @classmethod
+    def ST37_Plate(cls):
+        SteelMaterial.name: str = "ST37Plate"
+        SteelMaterial.Type: MaterialType = MaterialType.Steel
+        SteelMaterial.density: float = 7849.05
+        SteelMaterial.E: float = 2000000
+        SteelMaterial.nu: float = 0.3
+        SteelMaterial.A: float = 0.0000117
+        SteelMaterial.Fy: float = 2400
+        SteelMaterial.Fu: float = 3700
+        SteelMaterial.Fye: float = 2400 * 1.15
+        SteelMaterial.Fue: float = 3700 * 1.15
+        return cls
+
+    @classmethod
+    def ST52_Rolled(cls):
+        SteelMaterial.name: str = "ST52Rolled"
+        SteelMaterial.Type: MaterialType = MaterialType.Steel
+        SteelMaterial.density: float = 7849.05
+        SteelMaterial.E: float = 2000000
+        SteelMaterial.nu: float = 0.3
+        SteelMaterial.A: float = 0.0000117
+        SteelMaterial.Fy: float = 3600
+        SteelMaterial.Fu: float = 5200
+        SteelMaterial.Fye: float = 3600 * 1.2
+        SteelMaterial.Fue: float = 5200 * 1.2
+        return cls
+
+    @classmethod
+    def ST52_Plate(cls):
+        SteelMaterial.name: str = "ST52Plate"
+        SteelMaterial.Type: MaterialType = MaterialType.Steel
+        SteelMaterial.density: float = 7849.05
+        SteelMaterial.E: float = 2000000
+        SteelMaterial.nu: float = 0.3
+        SteelMaterial.A: float = 0.0000117
+        SteelMaterial.Fy: float = 3600
+        SteelMaterial.Fu: float = 5200
+        SteelMaterial.Fye: float = 3600 * 1.15
+        SteelMaterial.Fue: float = 5200 * 1.15
+        return cls
+
+class RebarMaterial(StructuralMaterial):
+    def __init__(self, name: str, fy: float, fu: float):
+        self.Fy: float = fy
+        self. Fu: float = fu
+        super.__init__(self, name, MaterialType.Rebar, 7849.05,
+                20390000000, 0.3, 0.0000117)
+
+    @classmethod
+    def AI(cls):
+        RebarMaterial.name: str = "AI"
+        RebarMaterial.Type: MaterialType = MaterialType.Rebar
+        RebarMaterial.density: float = 7849.05
+        RebarMaterial.E: float = 2000000
+        RebarMaterial.nu: float = 0.3
+        RebarMaterial.A: float = 0.0000117
+        RebarMaterial.Fy: float = 2400
+        RebarMaterial.Fu: float = 3600
+        return cls
+
+    @classmethod
+    def AII(cls):
+        RebarMaterial.name: str = "AII"
+        RebarMaterial.Type: MaterialType = MaterialType.Rebar
+        RebarMaterial.density: float = 7849.05
+        RebarMaterial.E: float = 2000000
+        RebarMaterial.nu: float = 0.3
+        RebarMaterial.A: float = 0.0000117
+        RebarMaterial.Fy: float = 3400
+        RebarMaterial.Fu: float = 5000
+        return cls
+
+    @classmethod
+    def AIII(cls):
+        RebarMaterial.name: str = "AIII"
+        RebarMaterial.Type: MaterialType = MaterialType.Rebar
+        RebarMaterial.density: float = 7849.05
+        RebarMaterial.E: float = 2000000
+        RebarMaterial.nu: float = 0.3
+        RebarMaterial.A: float = 0.0000117
+        RebarMaterial.Fy: float = 4000
+        RebarMaterial.Fu: float = 6000
+        return cls
+
+    @classmethod
+    def AIV(cls):
+        RebarMaterial.name: str = "AIV"
+        RebarMaterial.Type: MaterialType = MaterialType.Rebar
+        RebarMaterial.density: float = 7849.05
+        RebarMaterial.E: float = 2000000
+        RebarMaterial.nu: float = 0.3
+        RebarMaterial.A: float = 0.0000117
+        RebarMaterial.Fy: float = 5000
+        RebarMaterial.Fu: float = 6500
+        return cls
+
+
+st37 = SteelMaterial.ST37_Plate();
+print(st37.E)
+print(st37.Fu)
