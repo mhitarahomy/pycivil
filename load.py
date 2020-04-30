@@ -64,9 +64,8 @@ class LinearLoad:
         pass
 
 
-
-loadcase = LoadCase("dead load", LoadCaseType.dead)
-load = PointLoad.Temprature(loadcase, 25)
-print(load.LoadCase.Name)
-print(load.ID)
-print(load.Magnitude)
+#loadcase = LoadCase("dead load", LoadCaseType.dead)
+#load = PointLoad.Temprature(loadcase, 25)
+#print(load.LoadCase.Name)
+#print(load.ID)
+#print(load.Magnitude)
