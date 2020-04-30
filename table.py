@@ -132,5 +132,5 @@ def getlist(tablename: str, field: str, *condition):
     return rdata
 
 
-print(getdata(Tables.ImportanceCOE, ImpCOEFields.Group, 2))
-print(getlist(Tables.ImportanceCOE, ImpCOEFields.Group))
+#print(getdata(Tables.ImportanceCOE, ImpCOEFields.Group, 2))
+#print(getlist(Tables.ImportanceCOE, ImpCOEFields.Group))
