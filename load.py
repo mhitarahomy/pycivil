@@ -52,14 +52,16 @@ class PointLoad:
 
 #Linear Load
 class LinearLoad:
-    class LinearLoadType:
+    class LinearLoadDirection:
         Fx = 0
         Fy = 1
         Fz = 2
         Mx = 3
         My = 4
         Mz = 5
-
+    
+    class Distributed(Load):
+        pass
 
 
 
