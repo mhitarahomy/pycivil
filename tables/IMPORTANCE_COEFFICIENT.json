@@ -1,0 +1,30 @@
+[
+    {
+        "GROUP_NUM": 1,
+        "ICE": 1.25,
+        "SEISMIC": 1.4,
+        "SNOW": 1.2,
+        "WIND": 1.25
+    },
+    {
+        "GROUP_NUM": 2,
+        "ICE": 1.25,
+        "SEISMIC": 1.2,
+        "SNOW": 1.1,
+        "WIND": 1.15
+    },
+    {
+        "GROUP_NUM": 3,
+        "ICE": 1,
+        "SEISMIC": 1,
+        "SNOW": 1,
+        "WIND": 1
+    },
+    {
+        "GROUP_NUM": 4,
+        "ICE": 0.8,
+        "SEISMIC": 0.8,
+        "SNOW": 0.8,
+        "WIND": 0.8
+    }
+]

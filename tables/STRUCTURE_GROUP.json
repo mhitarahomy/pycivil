@@ -1,0 +1,222 @@
+[
+    {
+        "DESCRIPTION": "بیمارستان",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "درمانگاه",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "مراکز آبرسانی",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "تاسیسات آبرسانی",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "نیروگاه",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "تاسیسات برق رسانی",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "برج مراقبت فرودگاه",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "مراکز مخابرات",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "مراکز رادیو و تلویزیون",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "تاسیسات نظامی",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "مراکز کمک رسانی",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "مراکز امداد و نجات",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "تاسیسات صنعتی که خرابی آنها موجب انتشار مواد سمی می شود",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "تاسیسات صنعتی که خرابی آنها موجب انتشار مواد مضر برای محیط زیست می شود",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "سازه هایی که برای حفظ عملکرد سازه های گروه یک مورد نیاز می باشد",
+        "GROUP_ID": 1
+    },
+    {
+        "DESCRIPTION": "سازه هایی که خرابی آنها منجر به تلفات جانی قابل توجه می شود",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "مدرسه",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "مسجد",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "استادیوم",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "سینما",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تئاتر",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "سالن اجتماعات",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "فروشگاه بزرگ",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "ترمینال مسافربری",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "فضای سرپوشیده که محل تجمع بیش از سیصد نفر است",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "موزه",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "کتابخانه",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "مرکز نگهداری اسناد و مدارک ملی و باارزش",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "پالایشگاه",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "مرکز گازرسانی",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "انبار سوخت",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات سازنده سوخت های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات پردازنده سوخت های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات فروشنده سوخت های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات سازنده مواد شیمیایی خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات پردازنده مواد شیمیایی خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات فروشنده مواد شیمیایی خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات سازنده زباله های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات پردازنده زباله های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات فروشنده زباله های خطرناک",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات سازنده مواد منفجره",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات پردازنده مواد منفجره",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "تاسیسات فروشنده مواد منفجره",
+        "GROUP_ID": 2
+    },
+    {
+        "DESCRIPTION": "ساختمان مسکونی",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "ساختمان اداری",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "ساختمان تجاری",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "هتل",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "پارکینگ طبقاتی",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "انبار",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "کارگاه",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "ساختمان صنعتی",
+        "GROUP_ID": 3
+    },
+    {
+        "DESCRIPTION": "سازه هایی که خرابی آنها منجر به تلفات جانی و مالی کم می شود",
+        "GROUP_ID": 4
+    },
+    {
+        "DESCRIPTION": "انبارهای کشاورزی",
+        "GROUP_ID": 4
+    },
+    {
+        "DESCRIPTION": "سالن مرغداری",
+        "GROUP_ID": 4
+    },
+    {
+        "DESCRIPTION": "سازه هایی که مدت بهره برداری کمتر از دو سال است",
+        "GROUP_ID": 4
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "DESCRIPTION": "برف بسیار کم (نادر)",
+        "LOAD_MAGNITUDE": 0.25,
+        "ZONE_ID": 1
+    },
+    {
+        "DESCRIPTION": "برف کم",
+        "LOAD_MAGNITUDE": 0.5,
+        "ZONE_ID": 2
+    },
+    {
+        "DESCRIPTION": "برف متوسط",
+        "LOAD_MAGNITUDE": 1,
+        "ZONE_ID": 3
+    },
+    {
+        "DESCRIPTION": "برف زیاد",
+        "LOAD_MAGNITUDE": 1.5,
+        "ZONE_ID": 4
+    },
+    {
+        "DESCRIPTION": "برف سنگین",
+        "LOAD_MAGNITUDE": 2,
+        "ZONE_ID": 5
+    },
+    {
+        "DESCRIPTION": "برف فوق سنگین",
+        "LOAD_MAGNITUDE": 3,
+        "ZONE_ID": 6
+    }
+]

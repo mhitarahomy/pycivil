@@ -1,0 +1,1166 @@
+[
+    {
+        "DENSITY": 2700,
+        "DESCRIPTION": "آلومینیم",
+        "ID": "m000",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7200,
+        "DESCRIPTION": "آهن خام خاکستری",
+        "ID": "m001",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7700,
+        "DESCRIPTION": "آهن خام سفید",
+        "ID": "m002",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7200,
+        "DESCRIPTION": "چدن",
+        "ID": "m003",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7850,
+        "DESCRIPTION": "فولاد نرم",
+        "ID": "m004",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 11400,
+        "DESCRIPTION": "سرب",
+        "ID": "m005",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 8900,
+        "DESCRIPTION": "مس",
+        "ID": "m006",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 8500,
+        "DESCRIPTION": "برنز",
+        "ID": "m007",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7200,
+        "DESCRIPTION": "روی",
+        "ID": "m008",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7200,
+        "DESCRIPTION": "قلع",
+        "ID": "m009",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 8800,
+        "DESCRIPTION": "نیکل",
+        "ID": "m010",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 6700,
+        "DESCRIPTION": "آنتیموان",
+        "ID": "m011",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 5700,
+        "DESCRIPTION": "آرسنیک",
+        "ID": "m012",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 6900,
+        "DESCRIPTION": "کرم",
+        "ID": "m013",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 8800,
+        "DESCRIPTION": "برنج ریخته شده",
+        "ID": "m014",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "منیزیم",
+        "ID": "m015",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 7000,
+        "DESCRIPTION": "منگنز",
+        "ID": "m016",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 9800,
+        "DESCRIPTION": "بیسموت",
+        "ID": "m017",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 13600,
+        "DESCRIPTION": "جیوه",
+        "ID": "m018",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 21400,
+        "DESCRIPTION": "پلاتین",
+        "ID": "m019",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 19300,
+        "DESCRIPTION": "طلا",
+        "ID": "m020",
+        "MATERIAL_TYPE": "فلزات"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "آب",
+        "ID": "m021",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1100,
+        "DESCRIPTION": "لجن",
+        "ID": "m022",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "اتر",
+        "ID": "m023",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "الکل",
+        "ID": "m024",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "نفت",
+        "ID": "m025",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "بنزین",
+        "ID": "m026",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1250,
+        "DESCRIPTION": "گلیسیرین",
+        "ID": "m027",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "روغن دانه",
+        "ID": "m028",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "روغن موتور",
+        "ID": "m029",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "نفت چراغ",
+        "ID": "m030",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "اسید سولفوریک",
+        "ID": "m031",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1500,
+        "DESCRIPTION": "اسید نیتریک",
+        "ID": "m032",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1200,
+        "DESCRIPTION": "اسید کلریدریک",
+        "ID": "m033",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1200,
+        "DESCRIPTION": "قیر ذغال سنگ",
+        "ID": "m034",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "شیر",
+        "ID": "m035",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "روغن نباتی",
+        "ID": "m036",
+        "MATERIAL_TYPE": "مایعات"
+    },
+    {
+        "DENSITY": 1.77,
+        "DESCRIPTION": "استیلن",
+        "ID": "m037",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.25,
+        "DESCRIPTION": "اکسید دوکربن",
+        "ID": "m038",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.964,
+        "DESCRIPTION": "انیدرید کربنیک",
+        "ID": "m039",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 0.56,
+        "DESCRIPTION": "گاز روشنایی",
+        "ID": "m040",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.293,
+        "DESCRIPTION": "هوای خشک",
+        "ID": "m041",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.3,
+        "DESCRIPTION": "هوای مرطوب",
+        "ID": "m042",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.429,
+        "DESCRIPTION": "اکسیژن",
+        "ID": "m043",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 1.254,
+        "DESCRIPTION": "ازت",
+        "ID": "m044",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 0.089,
+        "DESCRIPTION": "هیدروژن",
+        "ID": "m045",
+        "MATERIAL_TYPE": "گازها"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "زربین",
+        "ID": "m046",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 710,
+        "DESCRIPTION": "زبان گنجشک ون",
+        "ID": "m047",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 670,
+        "DESCRIPTION": "راش",
+        "ID": "m048",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 650,
+        "DESCRIPTION": "داغداغان تادانه",
+        "ID": "m049",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 750,
+        "DESCRIPTION": "گلابی وحشی - خوج",
+        "ID": "m050",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 750,
+        "DESCRIPTION": "خرمندی",
+        "ID": "m051",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 580,
+        "DESCRIPTION": "توسکا ییلاقی",
+        "ID": "m052",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 540,
+        "DESCRIPTION": "توسکا قشلاقی",
+        "ID": "m053",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 410,
+        "DESCRIPTION": "تبریزی",
+        "ID": "m054",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 640,
+        "DESCRIPTION": "شیردار",
+        "ID": "m055",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 530,
+        "DESCRIPTION": "افرا پلت",
+        "ID": "m056",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 520,
+        "DESCRIPTION": "بیدمشک",
+        "ID": "m057",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 850,
+        "DESCRIPTION": "بلوط بلند مازو",
+        "ID": "m058",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 640,
+        "DESCRIPTION": "نارون اوجا",
+        "ID": "m059",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "انجیری چوب آهن",
+        "ID": "m060",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "آزاد",
+        "ID": "m061",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 850,
+        "DESCRIPTION": "زیتون",
+        "ID": "m062",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 590,
+        "DESCRIPTION": "سرخدار",
+        "ID": "m063",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 500,
+        "DESCRIPTION": "چنار سفیدار عرعر",
+        "ID": "m064",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 400,
+        "DESCRIPTION": "سفید پلت",
+        "ID": "m065",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 450,
+        "DESCRIPTION": "سیاه بید",
+        "ID": "m066",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 650,
+        "DESCRIPTION": "سیب",
+        "ID": "m067",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 480,
+        "DESCRIPTION": "شب خسب درخت ابریشم",
+        "ID": "m068",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 900,
+        "DESCRIPTION": "شمشاد",
+        "ID": "m069",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 650,
+        "DESCRIPTION": "گردو",
+        "ID": "m070",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 640,
+        "DESCRIPTION": "گلابی",
+        "ID": "m071",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "گوجه جنگلی",
+        "ID": "m072",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 730,
+        "DESCRIPTION": "گیلاس جنگلی",
+        "ID": "m073",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 430,
+        "DESCRIPTION": "لرگ",
+        "ID": "m074",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 640,
+        "DESCRIPTION": "کرات لیلکی",
+        "ID": "m075",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 630,
+        "DESCRIPTION": "ملج",
+        "ID": "m076",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "مرس ممرز",
+        "ID": "m077",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 530,
+        "DESCRIPTION": "نمدار",
+        "ID": "m078",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "کاج",
+        "ID": "m079",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "صنوبر",
+        "ID": "m080",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 500,
+        "DESCRIPTION": "شربین کاج سیاه",
+        "ID": "m081",
+        "MATERIAL_TYPE": "چوب ها"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "گرانیت",
+        "ID": "m082",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 3000,
+        "DESCRIPTION": "دیوریت گابرو",
+        "ID": "m083",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 3000,
+        "DESCRIPTION": "بازالت ملافیر",
+        "ID": "m084",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "کفسنگ توف",
+        "ID": "m085",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "آذرین ماگماتیک",
+        "ID": "m086",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "آتشفشانی",
+        "ID": "m087",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "توف های آتشفشانی",
+        "ID": "m088",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2500,
+        "DESCRIPTION": "تراورتن",
+        "ID": "m089",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "گنایس",
+        "ID": "m090",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "شیست",
+        "ID": "m091",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2700,
+        "DESCRIPTION": "ماسه سنگ",
+        "ID": "m092",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2300,
+        "DESCRIPTION": "مارل",
+        "ID": "m093",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "سنگ آهک متخلخل",
+        "ID": "m094",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2400,
+        "DESCRIPTION": "سنگ آهک آبی",
+        "ID": "m095",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2700,
+        "DESCRIPTION": "سنگ آهک سخت",
+        "ID": "m096",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "دولومیت",
+        "ID": "m097",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2700,
+        "DESCRIPTION": "سنگ مرمر",
+        "ID": "m098",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 2600,
+        "DESCRIPTION": "تخته سنگ های رسی",
+        "ID": "m099",
+        "MATERIAL_TYPE": "سنگ های طبیعی"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "آجر توپخته رسی معمولی (آجر فشاری)",
+        "ID": "m100",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1300,
+        "DESCRIPTION": "آجر سوراخ دار پخته رسی (آجر سفال)",
+        "ID": "m101",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1450,
+        "DESCRIPTION": "آجر ماسه آهکی متخلخل",
+        "ID": "m102",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "آجر ماسه آهکی توپر",
+        "ID": "m103",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1850,
+        "DESCRIPTION": "آجر نسوز",
+        "ID": "m104",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "آجر ضد اسید",
+        "ID": "m105",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1250,
+        "DESCRIPTION": "آجر شیشه ای مجوف",
+        "ID": "m106",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "آجر مجوف",
+        "ID": "m107",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1300,
+        "DESCRIPTION": "بلوک سیمانی سنگین",
+        "ID": "m108",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 900,
+        "DESCRIPTION": "بلوک سیمانی سبک",
+        "ID": "m109",
+        "MATERIAL_TYPE": "آجرها و بلوک های ساختمانی"
+    },
+    {
+        "DENSITY": 1850,
+        "DESCRIPTION": "ملات ماسه آهک",
+        "ID": "m110",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "ملات ماسه سیمان و آهک (باتارد)",
+        "ID": "m111",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 2100,
+        "DESCRIPTION": "ملات ماسه سیمان",
+        "ID": "m112",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 1300,
+        "DESCRIPTION": "ملات گچ",
+        "ID": "m113",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 1900,
+        "DESCRIPTION": "ملات خاک نسوز",
+        "ID": "m114",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "کاهگل",
+        "ID": "m115",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "ملات گچ و خاک",
+        "ID": "m116",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "ملات گل",
+        "ID": "m117",
+        "MATERIAL_TYPE": "ملات ها"
+    },
+    {
+        "DENSITY": 2400,
+        "DESCRIPTION": "بتن با شن و ماسه معمولی",
+        "ID": "m118",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 2500,
+        "DESCRIPTION": "بتن آرمه و بتن پیش تنیده با شن و ماسه معمولی",
+        "ID": "m119",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1750,
+        "DESCRIPTION": "بتن با سرباره کوره آهن گدازی",
+        "ID": "m120",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "بتن های سبک هوادار و گازی",
+        "ID": "m121",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "بتن با سنگ دانه سبک (سبک)",
+        "ID": "m122",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "بتن با سنگ دانه سبک (سنگین)",
+        "ID": "m123",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 500,
+        "DESCRIPTION": "بتن اسفنجی (سبک)",
+        "ID": "m124",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 900,
+        "DESCRIPTION": "بتن اسفنجی (سنگین)",
+        "ID": "m125",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "بتن با خرده آجر",
+        "ID": "m126",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1300,
+        "DESCRIPTION": "بتن با پوکه معدنی و سیمان",
+        "ID": "m127",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "بتن با پوکه صنعتی و سیمان (سبک)",
+        "ID": "m128",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "بتن با پوکه صنعتی و سیمان (سنگین)",
+        "ID": "m129",
+        "MATERIAL_TYPE": "بتن ها"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "شن خیس",
+        "ID": "m130",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "شن خشک",
+        "ID": "m131",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "ماسه خیس",
+        "ID": "m132",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1550,
+        "DESCRIPTION": "ماسه خشک",
+        "ID": "m133",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "ماسه بادی",
+        "ID": "m134",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 2100,
+        "DESCRIPTION": "خاک ماسه گل رس خیس",
+        "ID": "m135",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "خاک ماسه گل رس مرطوب (5% رطوبت)",
+        "ID": "m136",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "خاک نسوز",
+        "ID": "m137",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1400,
+        "DESCRIPTION": "لاشه سنگ",
+        "ID": "m138",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1500,
+        "DESCRIPTION": "سرباره کوره آهنگدازی",
+        "ID": "m139",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "سرباره کوره آهنگذازی دانه به دانه",
+        "ID": "m140",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "پوزولان ها",
+        "ID": "m141",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 600,
+        "DESCRIPTION": "پوکه معدنی",
+        "ID": "m142",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "پوکه کک",
+        "ID": "m143",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1000,
+        "DESCRIPTION": "جوش زغال",
+        "ID": "m144",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 800,
+        "DESCRIPTION": "زغال سنگ",
+        "ID": "m145",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 150,
+        "DESCRIPTION": "زغال چوب (از چوب نرم و سبک)",
+        "ID": "m146",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 220,
+        "DESCRIPTION": "زغال چوب (از چوب سفت و سنگین)",
+        "ID": "m147",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1500,
+        "DESCRIPTION": "خرده آجر",
+        "ID": "m148",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "سنگ آهک پخته",
+        "ID": "m149",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 700,
+        "DESCRIPTION": "خاکستر کک",
+        "ID": "m150",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1300,
+        "DESCRIPTION": "پودر سیمان توده شده و به طور آزاد",
+        "ID": "m151",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "پودر سیمان در کیسه و جایه جا شده",
+        "ID": "m152",
+        "MATERIAL_TYPE": "سنگ دانه ها و پر کننده ها"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "گرانیت پورفیت",
+        "ID": "m153",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2600,
+        "DESCRIPTION": "لاشه آذرین (تراشیت)",
+        "ID": "m154",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2300,
+        "DESCRIPTION": "ماسه سنگ لایه سنگ",
+        "ID": "m155",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2700,
+        "DESCRIPTION": "سنگ آهکی فشرده دولومیت مرمر گل سنگ آهکی (شیل)",
+        "ID": "m156",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2400,
+        "DESCRIPTION": "تراورتن",
+        "ID": "m157",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2800,
+        "DESCRIPTION": "اسلیت تخته سنگ",
+        "ID": "m158",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2500,
+        "DESCRIPTION": "سنگ چینی با سنگ آهکی توپر",
+        "ID": "m159",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "سنگ چینی با سنگ توف",
+        "ID": "m160",
+        "MATERIAL_TYPE": "بنایی با سنگ های طبیعی و ملات ماسه سیمان"
+    },
+    {
+        "DENSITY": 1850,
+        "DESCRIPTION": "آجرکاری با آجر فشاری و ملات ماسه سیمان",
+        "ID": "m161",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "آجرکاری با آجر فشاری و ملات ماسه آهک",
+        "ID": "m162",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 1750,
+        "DESCRIPTION": "آجرکاری با آجر فشاری و ملات گچ و خاک (طاق ضربی)",
+        "ID": "m163",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 2100,
+        "DESCRIPTION": "آجرکاری با آجر سفال وملات ماسه سیمان (سوراخ ها با ملات پر شود)",
+        "ID": "m164",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "آجرکاری با آجر سفال و ملات ماسه آهک (سوراخ ها با ملات پر شود)",
+        "ID": "m165",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 850,
+        "DESCRIPTION": "آجرکاری با آجر مجوف و ملات ماسه سیمان",
+        "ID": "m166",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "آجرکاری با آجر نسوز و ملات نسوز",
+        "ID": "m167",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 1900,
+        "DESCRIPTION": "آجرکاری با آجر ضد اسید و ملات قیری",
+        "ID": "m168",
+        "MATERIAL_TYPE": "بنایی با آجر و بلوک"
+    },
+    {
+        "DENSITY": 2200,
+        "DESCRIPTION": "آسفالت",
+        "ID": "m169",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1200,
+        "DESCRIPTION": "قیر",
+        "ID": "m170",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "تخته های سقف پوش آزبستی (آردواز)",
+        "ID": "m171",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "ورق های موجدار آزبست",
+        "ID": "m172",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "لوله های سیمان آزبست",
+        "ID": "m173",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2250,
+        "DESCRIPTION": "موزاییک سیمانی",
+        "ID": "m174",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2400,
+        "DESCRIPTION": "سنگ موزاییک",
+        "ID": "m175",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1350,
+        "DESCRIPTION": "آجر فرش با آجر سوراخدار",
+        "ID": "m176",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1600,
+        "DESCRIPTION": "آجر فرش با آجر توپر",
+        "ID": "m177",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1150,
+        "DESCRIPTION": "رزین اپوکسی بدون فیلر (افزودنی)",
+        "ID": "m178",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2000,
+        "DESCRIPTION": "رزین با مواد معدنی",
+        "ID": "m179",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "رزین با فایبر گلاس",
+        "ID": "m180",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1800,
+        "DESCRIPTION": "کف پوش لاستیکی",
+        "ID": "m181",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1400,
+        "DESCRIPTION": "ورق پی وی سی",
+        "ID": "m182",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "کف پوش پی وی سی",
+        "ID": "m183",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 850,
+        "DESCRIPTION": "صفحات گچ و پرلیت جهت سقف کاذب",
+        "ID": "m184",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2500,
+        "DESCRIPTION": "شیشه جام",
+        "ID": "m185",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 3000,
+        "DESCRIPTION": "شیشه مسلح",
+        "ID": "m186",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 1700,
+        "DESCRIPTION": "کاشی سرامیکی دیواری",
+        "ID": "m187",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 2100,
+        "DESCRIPTION": "کاشی سرامیکی کفی",
+        "ID": "m188",
+        "MATERIAL_TYPE": "پوشش ها و مواد متفرقه ساختمانی"
+    },
+    {
+        "DENSITY": 70,
+        "DESCRIPTION": "پوشش شیروانی ها با سفال",
+        "ID": "m189",
+        "MATERIAL_TYPE": "پوشش های سقف"
+    },
+    {
+        "DENSITY": 10,
+        "DESCRIPTION": "گونی قیر اندود یک لا",
+        "ID": "m190",
+        "MATERIAL_TYPE": "پوشش های سقف"
+    },
+    {
+        "DENSITY": 15,
+        "DESCRIPTION": "گونی قیر اندود دولا",
+        "ID": "m191",
+        "MATERIAL_TYPE": "پوشش های سقف"
+    },
+    {
+        "DENSITY": 75,
+        "DESCRIPTION": "سقف کاذب با اندود سیمانی",
+        "ID": "m192",
+        "MATERIAL_TYPE": "پوشش های سقف"
+    },
+    {
+        "DENSITY": 50,
+        "DESCRIPTION": "سقف کاذب با اندود گچی",
+        "ID": "m193",
+        "MATERIAL_TYPE": "پوشش های سقف"
+    }
+]
