@@ -13,29 +13,29 @@ class LoadCaseType(Enum):
     flood = 7
 
 
-#Load Case
+# Load Case
 class LoadCase:
-    def __init__(self, name: str, load_case_type: LoadCaseType, 
-            comment: str = ""):
+    def __init__(self, name: str, load_case_type: LoadCaseType,
+                 comment: str = ""):
         self.ID: int = uuid.uuid1().int
         self.Name: str = name
         self.LoadCaseType: LoadCaseType = load_case_type
         self.Comment: str = comment
 
 
-#Load    
+# Load
 class Load:
-    def __init__(self, load_case: LoadCase,*magnitude: float):
+    def __init__(self, load_case: LoadCase, *magnitude: float):
         self.ID: int = uuid.uuid1().int
         self.LoadCase: LoadCase = load_case
         self.Magnitude = magnitude
 
 
-#Point Load
+# Point Load
 class PointLoad:
     class Force(Load):
         def __init__(self, load_case: LoadCase, fx: float,
-                fy: float, fz: float, mx: float, my: float, mz: float):
+                     fy: float, fz: float, mx: float, my: float, mz: float):
             Load.__init__(self, load_case, fx, fy, fz, mx, my, mz)
 
     class Temprature(Load):
@@ -43,14 +43,14 @@ class PointLoad:
             Load.__init__(self, load_case, temprature)
 
     class Displacement(Load):
-        def __init__(self, load_case: LoadCase, 
-                transx: float, transy: float, transz: float,
-                rotx: float, roty: float, rotz: float):
+        def __init__(self, load_case: LoadCase,
+                     transx: float, transy: float, transz: float,
+                     rotx: float, roty: float, rotz: float):
             Load.__init__(self, load_case, transx, transy, transz,
-                    rotx, roty, rotz)
+                          rotx, roty, rotz)
 
 
-#Linear Load
+# Linear Load
 class LinearLoad:
     class LinearLoadDirection:
         Fx = 0
@@ -59,13 +59,13 @@ class LinearLoad:
         Mx = 3
         My = 4
         Mz = 5
-    
+
     class Distributed(Load):
         pass
 
 
-#loadcase = LoadCase("dead load", LoadCaseType.dead)
-#load = PointLoad.Temprature(loadcase, 25)
-#print(load.LoadCase.Name)
-#print(load.ID)
-#print(load.Magnitude)
+# loadcase = LoadCase("dead load", LoadCaseType.dead)
+# load = PointLoad.Temprature(loadcase, 25)
+# print(load.LoadCase.Name)
+# print(load.ID)
+# print(load.Magnitude)
