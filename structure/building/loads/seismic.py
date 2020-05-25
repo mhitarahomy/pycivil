@@ -2,6 +2,7 @@
    source is 2800(5th)'''
 
 import table
+import math
 from enum import Enum
 
 
@@ -54,5 +55,45 @@ class Soil:
             self.S0 = soil[table.SoilTypeSeiemicFields.S0H]
 
 
-soil = Soil(SoilGroup.Group3, AreaCondition.HighRisk)
-print(soil.S0)
+def Ta(strucsystem: str, seismicsystem: str, h: float, 
+       isolator: bool = False) -> float:
+    rta = 0
+    struclist = table.getlist(
+            table.Tables.BehaviorCOE, table.BehCOEFields.StructureSystem)
+    def seismiclist(strsystem: str) -> str:
+        return table.getlist(
+                             table.Tables.BehaviorCOE, 
+                             table.BehCOEFields.SeismicSystem,
+                             table.BehCOEFields.StructureSystem,strsystem)
+    if strucsystem == struclist[2] and \
+       seismicsystem == seismiclist(struclist[2])[0] or \
+       seismicsystem == seismiclist(struclist[2])[1] or \
+       seismicsystem == seismiclist(struclist[2])[2]:
+           if isolator:
+               rta = 0.8 * 0.05 * math.pow(h, 0.9)
+           else: 
+               rta = 0.05 * math.pow(h, 0.9)
+    elif strucsystem == struclist[2] and \
+       seismicsystem == seismiclist(struclist[2])[3] or \
+       seismicsystem == seismiclist(struclist[2])[4] or \
+       seismicsystem == seismiclist(struclist[2])[5]:
+           if isolator:
+               rta = 0.8 * 0.08 * math.pow(h, 0.75)
+           else: 
+               rta = 0.08 * math.pow(h, 0.75)
+    elif strucsystem == struclist[1] and \
+         seismicsystem == seismiclist(struclist[1])[4]:
+           rta = 0.08 * math.pow(h, 0.75)
+    else:
+        rta = 0.05 * math.pow(h, 0.75)
+
+    return rta
+
+
+strucsys = table.getlist(table.Tables.BehaviorCOE, 
+        table.BehCOEFields.StructureSystem)[2]
+
+seismicsys = table.getlist(table.Tables.BehaviorCOE, 
+                        table.BehCOEFields.SeismicSystem,
+                        table.BehCOEFields.StructureSystem,strucsys)[0]
+print(Ta(strucsys, seismicsys, 50))
