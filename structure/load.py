@@ -1,8 +1,10 @@
+'''Define load classes'''
 import uuid
 from enum import Enum
 
 
 class LoadCaseType(Enum):
+'''Load case types'''
     none = 0
     dead = 1
     live = 2
