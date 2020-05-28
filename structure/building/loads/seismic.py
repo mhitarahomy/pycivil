@@ -23,7 +23,7 @@ class SoilGroup(Enum):
 
 def Is(group: int) -> float:
     '''Calculate importance coefficient for seismic load
-        group -> group of structure based on 2800(4th) P.5 part 6-1'''
+       group -> group of structure based on 2800(4th) P.5 part 6-1'''
     return table.getdata(
             table.Tables.ImportanceCOE,
             table.ImpCOEFields.Group, group)[table.ImpCOEFields.Seismic]
@@ -31,7 +31,7 @@ def Is(group: int) -> float:
 
 def A(zone: int) -> float:
     '''Calculate A
-        zone -> based on seismic hazard zonation map of iran'''
+       zone -> based on seismic hazard zonation map of iran'''
     return table.getdata(
             table.Tables.Acceleration,
             table.AccelFields.ZONE, zone)[table.AccelFields.A]
@@ -39,7 +39,7 @@ def A(zone: int) -> float:
 
 def Ru(strucsystem: str, seismicsystem: str):
     '''Calculate behaviour coefficient of structure
-        strucsystem, seismicsystem -> based on 2800(4th) p.34 table 4-3'''
+       strucsystem, seismicsystem -> based on 2800(4th) p.34 table 4-3'''
     return table.getdata(
             table.Tables.BehaviorCOE,
             table.BehCOEFields.StructureSystem, strucsystem,
@@ -48,10 +48,10 @@ def Ru(strucsystem: str, seismicsystem: str):
 
 
 class Soil:
-   def __init__(self, soilgroup: SoilGroup, areacondition: AreaCondition):
-       '''Calculate soil factors
-          soilgroup -> soil group based on 2800 (4th) P.19 table 3-2
-          areacondition -> area condition based on A'''
+    '''Calculate soil factors
+       soilgroup -> soil group based on 2800 (4th) P.19 table 3-2
+       areacondition -> area condition based on A'''
+    def __init__(self, soilgroup: SoilGroup, areacondition: AreaCondition):
         soil = table.getdata(
                 table.Tables.SoilTypeSeismic,
                 table.SoilTypeSeiemicFields.Type,
@@ -68,6 +68,10 @@ class Soil:
 
 def Ta(strucsystem: str, seismicsystem: str, h: float,
        isolator: bool = False) -> float:
+    '''Calculate Ta for building based on 2800 (4th) P.31 part 1-3-3-3
+       strucsys, seismicsystem -> system of structure and system of seismic
+       h -> height of building (meter)
+       isolator -> is isolator?'''
     rta = 0
     struclist = table.getlist(
             table.Tables.BehaviorCOE, table.BehCOEFields.StructureSystem)
@@ -103,10 +107,16 @@ def Ta(strucsystem: str, seismicsystem: str, h: float,
 
 
 def T(ta: float, tm: float) -> float:
+    '''Calculate T of building based on 2800 (4th) P.32 part 1-3-3-3
+       ta -> Exprimental T
+       tm -> calculated T'''
     return min(1.25 * ta, tm)
 
 
 def B1(t: float, soil: Soil) -> float:
+    '''Calculated B1 based on 2800 (4th) P.14 formula 2-2
+       t -> T of building
+       soil -> soil type of building'''
     rB1 = 0
     if t > 0 and t < soil.T0:
         rB1 = soil.S0 + (soil.S - soil.S0 + 1) * (t / soil.T0)
@@ -119,6 +129,10 @@ def B1(t: float, soil: Soil) -> float:
 
 
 def N(t: float, soil: Soil, areacondition: AreaCondition) -> float:
+    '''Calculated N based on 2800 (4th) P.17 formula 3-2 & 4-2
+       t -> T of building
+       soil -> soil type of building
+       areacondition -> area condition of zone'''
     rN = 0
     if areacondition == AreaCondition.HighRisk:
         if t < soil.Ts:
@@ -139,29 +153,46 @@ def N(t: float, soil: Soil, areacondition: AreaCondition) -> float:
 
 
 def B(b1: float, n: float) -> float:
+    '''Calculate B based on 2800 (4th) P.14 formula 1-2
+       b1 -> b1 from function B1
+       n -> n from function N'''
     return b1 * n
 
 
-def C(a: float, b: float, i:float, ru:float) -> float:
+def C(a: float, b: float, i: float, ru: float) -> float:
+    '''Calculate C based on 2800 (4th) P.28 formula 2-3
+       a -> calculate from function A
+       b -> calculate from function B
+       i -> calculate from function I
+       ru -> calculate from function Ru'''
     return (a * b * i) / ru
 
 
 def MinBaseShear(a: float, i: float, w: float) -> float:
+    '''Calculate Minimum Base Shear based on 2800 (4th) P.28 formula 3-3
+       a -> calculate from function A
+       i -> calculate from function I
+       w -> effective weight of building'''
     return 0.12 * a * i * w
 
 
 def BaseShear(c: float, w: float) -> float:
+    '''Calculate base shear based on 2800 (4th) P.28 formula 1-3
+       c -> calculate from function C
+       w -> effective weight of building'''
     return c * w
 
 
 def StaticBaseShear(minbs: float, bs: float) -> float:
+    '''Calculate static base shear on 2800 (4th) P.28
+       minbs -> minimum base shear from function MinBaseShear
+       bs -> base shear from function BaseShear'''
     return min(minbs, bs)
 
 
-strucsys = table.getlist(table.Tables.BehaviorCOE,
-                         table.BehCOEFields.StructureSystem)[2]
-
-seismicsys = table.getlist(table.Tables.BehaviorCOE,
-                           table.BehCOEFields.SeismicSystem,
-                           table.BehCOEFields.StructureSystem, strucsys)[0]
-print(Ta(strucsys, seismicsys, 50))
+# strucsys = table.getlist(table.Tables.BehaviorCOE,
+#                          table.BehCOEFields.StructureSystem)[2]
+# seismicsys = table.getlist(table.Tables.BehaviorCOE,
+#                            table.BehCOEFields.SeismicSystem,
+#                            table.BehCOEFields.StructureSystem, strucsys)[0]
+# print(Ta(strucsys, seismicsys, 50))
