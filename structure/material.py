@@ -127,7 +127,7 @@ class SteelMaterial(StructuralMaterial):
         self.Fu: float = fu
         self.Fye: float = fye
         self.Fue: float = fue
-        super.__init__(self, name, MaterialType.Steel, 7849.05,
+        super().__init__(name, MaterialType.Steel, 7849.05,
                 20390000000, 0.3, 0.0000117)
 
     @classmethod
