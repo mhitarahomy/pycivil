@@ -1,10 +1,9 @@
-'''Define load classes'''
+"""Define load classes"""
 import uuid
 from enum import Enum
 
 
 class LoadCaseType(Enum):
-'''Load case types'''
     none = 0
     dead = 1
     live = 2
@@ -38,18 +37,16 @@ class PointLoad:
     class Force(Load):
         def __init__(self, load_case: LoadCase, fx: float,
                      fy: float, fz: float, mx: float, my: float, mz: float):
-            Load.__init__(self, load_case, fx, fy, fz, mx, my, mz)
+            super().__init__(load_case, fx, fy, fz, mx, my, mz)
 
     class Temprature(Load):
         def __init__(self, load_case: LoadCase, temprature: float):
-            Load.__init__(self, load_case, temprature)
+            super().__init__(load_case, temprature)
 
     class Displacement(Load):
-        def __init__(self, load_case: LoadCase,
-                     transx: float, transy: float, transz: float,
+        def __init__(self, load_case: LoadCase, transx: float, transy: float, transz: float,
                      rotx: float, roty: float, rotz: float):
-            Load.__init__(self, load_case, transx, transy, transz,
-                          rotx, roty, rotz)
+            super().__init__(load_case, transx, transy, transz, rotx, roty, rotz)
 
 
 # Linear Load
