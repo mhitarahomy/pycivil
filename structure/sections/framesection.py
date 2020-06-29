@@ -24,9 +24,9 @@ class FrameSection(ABC):
         self.Material = material
         self.SectionShape = section_shape
         self.Comment = comment
-        self.Dimensions: dict[str, float] = {}
-        self.Properties: dict[str, float] = {}
-        self.Modifiers: dict[str, float] = {}
+        self.Dimensions: dict = {}
+        self.Properties: dict = {}
+        self.Modifiers: dict = {}
 
     @abstractmethod
     def SetDimensions(self, *p):
