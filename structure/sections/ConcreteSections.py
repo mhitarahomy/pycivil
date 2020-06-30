@@ -36,6 +36,9 @@ class ConcreteRectangularSection(FrameSection):
             "J": j
         }
 
+    def CalcProperties(self):
+        pass
+
     def SetModifiers(self, area, shear_area2, shear_area3,
                      torsional_constant, i22, i33, mass, weight):
         self.Modifiers = {
