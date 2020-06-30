@@ -12,8 +12,36 @@ class SectionShape(Enum):
     SteelTee = 2
     SteelAngle = 3
     SteelDoubleAngle = 4
+    SteelDoubleChannel = 5
     SteelTube = 5
     SteelPipe = 6
+    FilledSteelTube = 7
+    FilledSteelPipe = 8
+    ICoverPlate = 9
+    Joist = 10
+    SteelPlate = 11
+    SteelRod = 12
+    SteelCastellated = 13
+    SteelCellular = 14
+
+    ConcreteRectangular = 15
+    ConcreteCircle = 16
+    ConcreteEncasementRectangle = 17
+    ConcreteEncasementCircle = 18
+    ConcretePrecastI = 19
+    ConcreteTee = 20
+    ConcreteL = 21
+    ConcreteCross = 22
+    ConcreteBox = 23
+    ConcretePipe = 24
+
+    ColdFormedC = 25
+    ColdFormedZ = 26
+    ColdFormedHat = 27
+
+    BucklingRestrainedBrace = 28
+    General = 29
+    NonePrismatic = 30
 
 
 class FrameSection(ABC):
