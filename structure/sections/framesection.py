@@ -65,5 +65,9 @@ class FrameSection(ABC):
         pass
 
     @abstractmethod
+    def CalcProperties(self):
+        pass
+
+    @abstractmethod
     def SetModifiers(self, *p):
         pass
