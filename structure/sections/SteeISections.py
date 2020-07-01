@@ -7,8 +7,8 @@ class SteelIFlangeSection(FrameSection):
         super().__init__(name, material, SectionShape.SteelIFlange, comment)
         self.SetDimensions(50, 15, 1, 2, 15, 1)
 
-    def SetDimensions(self, outside_height, top_flange_width, top_flange_thickness,
-                      web_thickness, bottom_flange_width, bottom_flange_thickness):
+    def SetDimensions(self, outside_height: float, top_flange_width: float, top_flange_thickness: float,
+                      web_thickness: float, bottom_flange_width: float, bottom_flange_thickness: float):
         self.Dimensions = {
             "OutSideHeight": outside_height,
             "TopFlangeWidth": top_flange_width,
@@ -18,51 +18,18 @@ class SteelIFlangeSection(FrameSection):
             "BottomFlangeThickness": bottom_flange_thickness
         }
         self.CalcProperties()
-        self.SetModifiers(1, 1, 1, 1, 1, 1, 1, 1)
-
-    def SetProperties(self, area, as2, as3, i33, i22, s33pos, s33neg,
-                      s22pos, s22neg, r33, r22, z33, z22, j, cw):
-        self.Properties = {
-            "Area": area,
-            "As2": as2,
-            "As3": as3,
-            "I33": i33,
-            "I22": i22,
-            "S33Pos": s33pos,
-            "S33Neg": s33neg,
-            "S22Pos": s22pos,
-            "S22Neg": s22neg,
-            "R33": r33,
-            "R22": r22,
-            "Z33": z33,
-            "Z22": z22,
-            "J": j,
-            "Cw": cw
-        }
 
     def CalcProperties(self):
         pass
-
-    def SetModifiers(self, area, shear_area2, shear_area3,
-                     torsional_constant, i22, i33, mass, weight):
-        self.Modifiers = {
-            "Area": area,
-            "ShearArea2": shear_area2,
-            "ShearArea3": shear_area3,
-            "TorsionalConstant": torsional_constant,
-            "I22": i22,
-            "I33": i33,
-            "Mass": mass,
-            "Weight": weight
-        }
 
 
 class SteelChannelSection(FrameSection):
 
     def __init__(self, name: str, material: SteelMaterial, comment=""):
         super().__init__(name, material, SectionShape.SteelChannel, comment)
+        self.SetDimensions(30, 20, 1, 2, 0)
 
-    def SetDimensions(self, total_depth, total_width, flange_thickness,
+    def SetDimensions(self, total_depth: float, total_width: float, flange_thickness: float,
                       web_thickness, fillet_radius):
         self.Dimensions = {
             "TotalDepth": total_depth,
@@ -72,51 +39,18 @@ class SteelChannelSection(FrameSection):
             "FilletRadius": fillet_radius
         }
         self.CalcProperties()
-        self.SetModifiers(1, 1, 1, 1, 1, 1, 1, 1)
-
-    def SetProperties(self, area, as2, as3, i33, i22, s33pos, s33neg,
-                      s22pos, s22neg, r33, r22, z33, z22, j, cw):
-        self.Properties = {
-            "Area": area,
-            "As2": as2,
-            "As3": as3,
-            "I33": i33,
-            "I22": i22,
-            "S33Pos": s33pos,
-            "S33Neg": s33neg,
-            "S22Pos": s22pos,
-            "S22Neg": s22neg,
-            "R33": r33,
-            "R22": r22,
-            "Z33": z33,
-            "Z22": z22,
-            "J": j,
-            "Cw": cw
-        }
 
     def CalcProperties(self):
         pass
-
-    def SetModifiers(self, area, shear_area2, shear_area3,
-                     torsional_constant, i22, i33, mass, weight):
-        self.Modifiers = {
-            "Area": area,
-            "ShearArea2": shear_area2,
-            "ShearArea3": shear_area3,
-            "TorsionalConstant": torsional_constant,
-            "I22": i22,
-            "I33": i33,
-            "Mass": mass,
-            "Weight": weight
-        }
 
 
 class SteelTeeSection(FrameSection):
     def __init__(self, name: str, material: SteelMaterial, comment=""):
         super().__init__(name, material, SectionShape.SteelTee, comment)
+        self.SetDimensions(30, 20, 1, 2, 0)
 
-    def SetDimensions(self, total_depth, total_width, flange_thickness,
-                      web_thickness, fillet_radius):
+    def SetDimensions(self, total_depth: float, total_width: float, flange_thickness: float,
+                      web_thickness: float, fillet_radius: float):
         self.Dimensions = {
             "TotalDepth": total_depth,
             "TotalWidth": total_width,
@@ -125,40 +59,6 @@ class SteelTeeSection(FrameSection):
             "FilletRadius": fillet_radius
         }
         self.CalcProperties()
-        self.SetModifiers(1, 1, 1, 1, 1, 1, 1, 1)
-
-    def SetProperties(self, area, as2, as3, i33, i22, s33pos, s33neg,
-                      s22pos, s22neg, r33, r22, z33, z22, j, cw):
-        self.Properties = {
-            "Area": area,
-            "As2": as2,
-            "As3": as3,
-            "I33": i33,
-            "I22": i22,
-            "S33Pos": s33pos,
-            "S33Neg": s33neg,
-            "S22Pos": s22pos,
-            "S22Neg": s22neg,
-            "R33": r33,
-            "R22": r22,
-            "Z33": z33,
-            "Z22": z22,
-            "J": j,
-            "Cw": cw
-        }
 
     def CalcProperties(self):
         pass
-
-    def SetModifiers(self, area, shear_area2, shear_area3,
-                     torsional_constant, i22, i33, mass, weight):
-        self.Modifiers = {
-            "Area": area,
-            "ShearArea2": shear_area2,
-            "ShearArea3": shear_area3,
-            "TorsionalConstant": torsional_constant,
-            "I22": i22,
-            "I33": i33,
-            "Mass": mass,
-            "Weight": weight
-        }
