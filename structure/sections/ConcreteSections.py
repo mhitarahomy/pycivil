@@ -1,4 +1,4 @@
-from structure.sections.framesection import FrameSection, SectionShape
+from structure.sections.FrameSection import FrameSection, SectionShape
 from structure.material import ConcreteMaterial
 from structure.sections.ConcreteReinforcement import Reinforcement
 
