@@ -1,5 +1,20 @@
-from structure.sections.FrameSection import FrameSection, SectionShape
+from structure.sections.FrameSection import FrameSection, SectionShape, SectionDimensions
 from structure.material import SteelMaterial
+
+
+class SteelIFlangeDimensions(SectionDimensions):
+    def __init__(self, outside_height: float, top_flange_width: float, top_flange_thickness: float,
+                 web_thickness: float, bottom_flange_width: float, bottom_flange_thickness: float,
+                 fillet_radius: float):
+        super().__init__(max(top_flange_width, bottom_flange_width), outside_height)
+        self.OutSideHeight, self.H = outside_height
+        self.TopFlangeWidth, self.btop = top_flange_width
+        self.TopFlangeThickness, self.ttop = top_flange_thickness
+        self.WebThickness, self.tw = web_thickness
+        self.WebHeight, self.hw = self.H - self.tbot - self.ttop
+        self.BottomFlangeWidth, self.bbot = bottom_flange_width
+        self.BottomFlangeThickness, self.tbot = bottom_flange_thickness
+        self.FilletRadius, self.r = fillet_radius
 
 
 class SteelIFlangeSection(FrameSection):

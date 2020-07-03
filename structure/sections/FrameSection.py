@@ -85,6 +85,12 @@ class SectionModifiers:
         self.Weight = weight
 
 
+class SectionDimensions:
+    def __init__(self, width: float, depth: float):
+        self.Width = width
+        self.Depth = depth
+
+
 class FrameSection(ABC):
     def __init__(self, name: str, material: StructuralMaterial,
                  section_shape: SectionShape, comment=""):
@@ -93,15 +99,15 @@ class FrameSection(ABC):
         self.Material = material
         self.SectionShape = section_shape
         self.Comment = comment
-        self.Dimensions: dict = {}
+        self.Dimensions = None
         self.Properties = None
         self.Modifiers = None
+        self.SetDimensions(SectionDimensions(1, 1))
         self.SetProperties(SectionProperties(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1))
         self.SetModifiers(SectionModifiers(1, 1, 1, 1, 1, 1, 1, 1))
 
-    @abstractmethod
-    def SetDimensions(self, *p):
-        pass
+    def SetDimensions(self, dimensions: SectionDimensions):
+        self.Dimensions = dimensions
 
     def SetProperties(self, properties: SectionProperties):
         self.Properties = properties
