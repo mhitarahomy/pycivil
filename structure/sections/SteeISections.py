@@ -8,14 +8,16 @@ class SteelIFlangeSection(FrameSection):
         self.SetDimensions(50, 15, 1, 2, 15, 1)
 
     def SetDimensions(self, outside_height: float, top_flange_width: float, top_flange_thickness: float,
-                      web_thickness: float, bottom_flange_width: float, bottom_flange_thickness: float):
+                      web_thickness: float, bottom_flange_width: float, bottom_flange_thickness: float,
+                      fillet_radius: float):
         self.Dimensions = {
             "OutSideHeight": outside_height,
             "TopFlangeWidth": top_flange_width,
             "TopFlangeThickness": top_flange_thickness,
             "WebThickness": web_thickness,
             "BottomFlangeWidth": bottom_flange_width,
-            "BottomFlangeThickness": bottom_flange_thickness
+            "BottomFlangeThickness": bottom_flange_thickness,
+            "FilletRadius": fillet_radius
         }
         self.CalcProperties()
 
