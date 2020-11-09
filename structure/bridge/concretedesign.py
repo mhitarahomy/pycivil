@@ -1,7 +1,5 @@
-import sys
-sys.path.insert(0, '..')
+from structure.material import ConcreteMaterial
 
-import material
 
-# print(material.ConcreteMaterial.C20())
-# 
+print(ConcreteMaterial.C20())
+
