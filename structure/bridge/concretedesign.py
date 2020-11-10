@@ -1,5 +1,5 @@
 from structure.material import ConcreteMaterial
 
 
-print(ConcreteMaterial.C20())
-
+conc = ConcreteMaterial.C20()
+print(conc.density)

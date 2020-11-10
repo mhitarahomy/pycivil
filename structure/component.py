@@ -58,6 +58,6 @@ class Wall(Component):
         return super().Weight()
 
 
-layers = [AssignedWallLayer(WallLayer('1', 2400, 0.01), 1, 1)]
-wall = Wall('wall', layers)
-print(wall.SurfaceUnitWeight())
+# layers = [AssignedWallLayer(WallLayer('1', 2400, 0.01), 1, 1)]
+# wall = Wall('wall', layers)
+# print(wall.SurfaceUnitWeight())
